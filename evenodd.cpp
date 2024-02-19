@@ -1,6 +1,8 @@
-/*  MAKE CHANGES
-BY ABHISHEKN PAROCHI
-DATE/TIME: 19-02-2024*/
+Auther: Ranjeeta kakodiya
+# @projet for seprating even and odd number
+date: 19-2-24
+time:  22:25
+ version : 1.1         
 
 
 #include<iostream>

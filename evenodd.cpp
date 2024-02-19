@@ -1,4 +1,5 @@
-Auther: Ranjeeta kakodiya
+/*
+ Auther: Ranjeeta kakodiya
 # @projet for seprating even and odd number
 date: 19-2-24
 time:  22:25

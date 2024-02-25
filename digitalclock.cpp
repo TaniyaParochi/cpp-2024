@@ -2,17 +2,19 @@
 #include<iomanip>
 #include<stdlib.h>
 #include<windows.h>
+#include <unistd.h>
+
 using namespace std;
 int main(){
      system("color 4A");
      int hour,min,sec;
      cout<<setw(70)<<"enter current time*\n";
      cout<<"HH-";
-     cin>>"hour";
+     cin>>hour;
      cout<<"MM-";
-     cin>>"min";
+     cin>>min;
      cout<<"SS-";
-     cin>>"sec";
+     cin>>sec;
 
      system("color 4A");
      if(hour>23){
@@ -32,10 +34,10 @@ int main(){
        while(1){
         system("cls");
         for(hour;hour<24;hour++){
-             for(min;mim<60;min++){
+             for(min;min<60;min++){
                  for(sec;sec<60;sec++){
                      system("cls");
-                     cout<<"Current time is:"<<hour<<":"min<<":"sec<<"Hrs"<<endl;
+                     cout<<"Current time is:"<<hour<<":"<<min<<":"<<sec<<"Hrs"<<endl;
                      sleep(1000);
 
 

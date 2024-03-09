@@ -4,7 +4,7 @@ class perent{
 protected:
     string name;
 } ;
-class child :public parent{
+class child :public perent{
 public:
     void put(void){
 

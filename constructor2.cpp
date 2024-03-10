@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-class maoblie{
+class moblie{
 
 public:
     string name;

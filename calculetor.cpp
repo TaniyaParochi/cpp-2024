@@ -1,7 +1,10 @@
 #include<iostream>
 using namespace std;
 int main(){
-
+ sum;
+ sub;
+ mul;
+}
  void add(void){
     int sum;
     int num1;

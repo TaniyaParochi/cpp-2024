@@ -13,7 +13,7 @@ int main(){
     sum=num1+num2;
     cout<<"your sum is"<<sum;
 
-
+ }
 
  void sub(void){
     int sub;

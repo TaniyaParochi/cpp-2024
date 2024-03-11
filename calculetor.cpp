@@ -1,5 +1,11 @@
 #include<iostream>
 using namespace std;
+void add(void);
+void sub(void);
+ void mul(void);
+
+
+
 int main(){
 add(); // call
  sub(); //call

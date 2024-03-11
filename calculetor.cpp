@@ -2,31 +2,45 @@
 using namespace std;
 int main(){
 
-   int a,b;
-   int sum;
-   int sub;
-   int mul;
-
-while(){
-
- cout<<"add the numbers";
-    sum=a+b;
-cin>>sum;
-
-
-cout<<"sub the numbers";
-    sub=a-b;
-cin>>sub;
+ void add(void){
+    int sum;
+    int num1;
+    int num2;
+    cout<<"enter  the first  num";
+    cin>>num1;
+    cout<<"enter the secend num";
+    cin>>num2;
+    sum=num1+num2;
+    cout<<"your sum is"<<sum;
 
 
 
-cout<<"mul the numbers";
-    mul=a*b;
-cin>>mul;
+ void sub(void){
+    int sub;
+    int num1;
+    int num2;
+    cout<<"enter  the first  num";
+    cin>>num1;
+    cout<<"enter the secend num";
+    cin>>num2;
+    sum=num1+num2;
+    cout<<"your sub is"<<sub;
+
+
+ }
 
 
 
-
-}
+ void mul(void){
+    int mul;
+    int num1;
+    int num2;
+    cout<<"enter  the first  num";
+    cin>>num1;
+    cout<<"enter the secend num";
+    cin>>num2;
+    mul=num1*num2;
+    cout<<"your mul is"<<mul;
+ }
 return 0;
-}
+ }

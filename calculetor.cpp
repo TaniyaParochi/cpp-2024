@@ -1,8 +1,16 @@
 #include<iostream>
 using namespace std;
 int main(){
+add(); // call
+ sub(); //call
+ mul();// call 
 
- void add(void){
+ 
+}
+
+
+
+void add(void){
     int sum;
     int num1;
     int num2;
